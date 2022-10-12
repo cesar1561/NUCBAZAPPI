@@ -1,0 +1,59 @@
+@import url('https://fonts.googleapis.com/css2?family=Montserrat&display=swap');
+
+:root{
+    --bg-negro: #131415;
+    --bg-gris: #252525;
+    --texto: #FFFFFF;
+    --bg-amarillo: #FFA400;
+    --bg-rojo: #FC2933;
+    --bg-gradient: linear-gradient(to right, #FFA100, #FB103D);
+}
+
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Montserrat', sans-serif;
+    text-decoration: none;
+    list-style: none;
+    background: var(--bg-negro);
+}
+
+
+/*MATY: HEADER*/
+    
+/*FIN HEADER MATY*/
+
+
+
+/*HERO: CESAR*/
+
+/*FIN HERO CESAR*/
+
+
+
+/*DISCOVER: FABI*/
+
+/*FIN DISCOVER FABI*/
+
+
+
+/*CATEGORIES: MAX*/
+
+/*FIN CATEGORIES MAX*/
+
+
+
+/*PRODUCTS: AYE*/
+
+/*FIN PRODUCTS AYE*/
+
+
+
+/*FOOTER: MATY*/
+
+/*FIN FOOTER MATY*/
+
+
+
+
