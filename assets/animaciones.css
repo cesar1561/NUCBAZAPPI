@@ -1,11 +1,53 @@
+@keyframes fade {
+    form{
+        opacity: 2;
+    }to{
+        opacity: 0;
+    }
+}
+
+@keyframes slide-up {
+    form{
+        transform:translateY(100px);
+    }to{
+        transform: translateY(0);
+    }
+    
+}
+
+@keyframes slide-left {
+    form{
+        transform: translateX(100px);
+    }to{
+        transform: translateX(0);
+    }
+}
+
+
+
 /*MATY: HEADER*/
+
     
 /*FIN HEADER MATY*/
 
 
 
 /*HERO: CESAR*/
+h1{
+    animation: fade 1s ease-in, slide-left 2 ease-in-out;
+}
 
+.hero__informacion button{
+    opacity: 1;
+    animation: fade 1s ease-in, forwards, slide-up 1s ease-in-out;
+    animation-delay: 0.4s;
+}
+
+.hero__imagenes{
+    opacity: 1;
+    animation: fade 1s ease-in,forwards, slide-left 1s ease-in-out;
+    animation-delay:0,4s;
+}
 /*FIN HERO CESAR*/
 
 

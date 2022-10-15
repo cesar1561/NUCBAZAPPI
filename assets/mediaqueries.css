@@ -1,4 +1,21 @@
 @media(max-width:992px){
+    .hero__informacion{
+        width: 100%;
+        text-align: center;
+        justify-content: center;
+        align-items: center;
+        gap:20px;
+    }
+    .hero__informacion h1{
+        width: 80%;
+        max-width: 500px;
+        min-width: unset;
+    }
+    .hero__imagenes{
+        display: none;
+    }
+}
+
     
 /*MATY: HEADER*/
     
@@ -35,7 +52,7 @@
 /*FIN FOOTER MATY*/
 
 
-}
+
 
 
 @media(max-width:576px){
